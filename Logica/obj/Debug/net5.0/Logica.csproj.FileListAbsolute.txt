@@ -1,0 +1,17 @@
+C:\Users\Usuario\Documents\programacion web\taller automotriz\Logica\bin\Debug\net5.0\Logica.deps.json
+C:\Users\Usuario\Documents\programacion web\taller automotriz\Logica\bin\Debug\net5.0\Logica.dll
+C:\Users\Usuario\Documents\programacion web\taller automotriz\Logica\bin\Debug\net5.0\ref\Logica.dll
+C:\Users\Usuario\Documents\programacion web\taller automotriz\Logica\bin\Debug\net5.0\Logica.pdb
+C:\Users\Usuario\Documents\programacion web\taller automotriz\Logica\bin\Debug\net5.0\Datos.dll
+C:\Users\Usuario\Documents\programacion web\taller automotriz\Logica\bin\Debug\net5.0\Entidad.dll
+C:\Users\Usuario\Documents\programacion web\taller automotriz\Logica\bin\Debug\net5.0\Entidad.pdb
+C:\Users\Usuario\Documents\programacion web\taller automotriz\Logica\bin\Debug\net5.0\Datos.pdb
+C:\Users\Usuario\Documents\programacion web\taller automotriz\Logica\obj\Debug\net5.0\Logica.csprojAssemblyReference.cache
+C:\Users\Usuario\Documents\programacion web\taller automotriz\Logica\obj\Debug\net5.0\Logica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Documents\programacion web\taller automotriz\Logica\obj\Debug\net5.0\Logica.AssemblyInfoInputs.cache
+C:\Users\Usuario\Documents\programacion web\taller automotriz\Logica\obj\Debug\net5.0\Logica.AssemblyInfo.cs
+C:\Users\Usuario\Documents\programacion web\taller automotriz\Logica\obj\Debug\net5.0\Logica.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\programacion web\taller automotriz\Logica\obj\Debug\net5.0\Logica.csproj.CopyComplete
+C:\Users\Usuario\Documents\programacion web\taller automotriz\Logica\obj\Debug\net5.0\Logica.dll
+C:\Users\Usuario\Documents\programacion web\taller automotriz\Logica\obj\Debug\net5.0\ref\Logica.dll
+C:\Users\Usuario\Documents\programacion web\taller automotriz\Logica\obj\Debug\net5.0\Logica.pdb

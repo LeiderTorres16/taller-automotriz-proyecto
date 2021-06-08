@@ -1,0 +1,68 @@
+<header>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm bg-white border-bottom box-shadow mb-3"
+    style="background: #373B44;  
+    background: -webkit-linear-gradient(to bottom, #4286f4, #373B44);  
+    background: linear-gradient(to bottom, #4286f4, #373B44);">
+      <div class="container">
+        <svg style="color: white" xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-tools"
+          viewBox="0 0 16 16">
+          <path
+            d="M1 0L0 1l2.2 3.081a1 1 0 0 0 .815.419h.07a1 1 0 0 1 .708.293l2.675 2.675-2.617 2.654A3.003 3.003 0 0 0 0 13a3 3 0 1 0 5.878-.851l2.654-2.617.968.968-.305.914a1 1 0 0 0 .242 1.023l3.356 3.356a1 1 0 0 0 1.414 0l1.586-1.586a1 1 0 0 0 0-1.414l-3.356-3.356a1 1 0 0 0-1.023-.242L10.5 9.5l-.96-.96 2.68-2.643A3.005 3.005 0 0 0 16 3c0-.269-.035-.53-.102-.777l-2.14 2.141L12 4l-.364-1.757L13.777.102a3 3 0 0 0-3.675 3.68L7.462 6.46 4.793 3.793a1 1 0 0 1-.293-.707v-.071a1 1 0 0 0-.419-.814L1 0zm9.646 10.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708zM3 11l.471.242.529.026.287.445.445.287.026.529L5 13l-.242.471-.026.529-.445.287-.287.445-.529.026L3 15l-.471-.242L2 14.732l-.287-.445L1.268 14l-.026-.529L1 13l.242-.471.026-.529.445-.287.287-.445.529-.026L3 11z" />
+        </svg>
+        <a class="navbar-brand text-white"  [routerLink]="['/']"> G.A. TALLER</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse"
+          aria-label="Toggle navigation" [attr.aria-expanded]="isExpanded" (click)="toggle()">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse" [ngClass]="{ show: isExpanded }">
+          <ul class="navbar-nav flex-grow">
+            <li class="nav-item" [routerLinkActive]="['link-active']" [routerLinkActiveOptions]="{ exact: true }">
+              <a class="nav-link text-white" [routerLink]="['/']">Home</a>
+            </li>
+            <li class="nav-item dropdown" [routerLinkActive]="['link-active']">
+              <a class="nav-link dropdown-toggle text-white" id="navbardropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false"> Empleado </a>
+              <div class="dropdown-menu" aria-labelledby="navbardropdown">
+                <a class="dropdown-item" [routerLink]="['./registroEmpleado']">Registro</a>
+                <a class="dropdown-item" [routerLink]="['./consultaEmpleado']">Consulta</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown" [routerLinkActive]="['link-active']">
+              <a class="nav-link dropdown-toggle text-white" id="navbardropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false"> Cliente </a>
+              <div class="dropdown-menu" aria-labelledby="navbardropdown">
+                <a class="dropdown-item" [routerLink]="['./registroCliente']">Registro</a>
+                <a class="dropdown-item" [routerLink]="['./consultaCliente']">Consulta</a>
+              </div>
+            </li>
+            <li class="nav-item" [routerLinkActive]="['link-active']">
+              <a class="nav-link text-white" [routerLink]="['./servicio']">
+                Servicios
+              </a>
+            </li>
+            <li class="nav-item dropdown" [routerLinkActive]="['link-active']">
+              <a class="nav-link dropdown-toggle text-white" id="navbardropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false"> Bodega </a>
+              <div class="dropdown-menu" aria-labelledby="navbardropdown">
+                <a class="dropdown-item" [routerLink]="['./registroMateriales']">Registro de materiales</a>
+                <a class="dropdown-item" [routerLink]="['./consultaMateriales']">Consulta de materiales</a>
+              </div>
+            </li>
+            <li class="nav-item " [routerLinkActive]="['link-active']">
+              <a class="nav-link text-white" [routerLink]="['./agenda']">Agenda</a>
+            </li>
+            <li class="nav-item" [routerLinkActive]="['link-active']">
+              <a class="nav-link text-white" [routerLink]="['./cotizacion']"
+               aria-haspopup="true" aria-expanded="false">
+                Cotizacion</a>
+            </li>
+            <li class="nav-item" [routerLinkActive]="['link-active']">
+              <a class="nav-link text-white" [routerLink]="['./iniciosecion']"
+               aria-haspopup="true" aria-expanded="false">
+                INICIO SECION</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>

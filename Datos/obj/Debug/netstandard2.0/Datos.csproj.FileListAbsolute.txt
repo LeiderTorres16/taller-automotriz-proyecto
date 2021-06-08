@@ -1,0 +1,12 @@
+C:\Users\Usuario\Documents\programacion web\taller automotriz\Datos\bin\Debug\netstandard2.0\Datos.deps.json
+C:\Users\Usuario\Documents\programacion web\taller automotriz\Datos\bin\Debug\netstandard2.0\Datos.dll
+C:\Users\Usuario\Documents\programacion web\taller automotriz\Datos\bin\Debug\netstandard2.0\Datos.pdb
+C:\Users\Usuario\Documents\programacion web\taller automotriz\Datos\bin\Debug\netstandard2.0\Entidad.dll
+C:\Users\Usuario\Documents\programacion web\taller automotriz\Datos\bin\Debug\netstandard2.0\Entidad.pdb
+C:\Users\Usuario\Documents\programacion web\taller automotriz\Datos\obj\Debug\netstandard2.0\Datos.csprojAssemblyReference.cache
+C:\Users\Usuario\Documents\programacion web\taller automotriz\Datos\obj\Debug\netstandard2.0\Datos.AssemblyInfoInputs.cache
+C:\Users\Usuario\Documents\programacion web\taller automotriz\Datos\obj\Debug\netstandard2.0\Datos.AssemblyInfo.cs
+C:\Users\Usuario\Documents\programacion web\taller automotriz\Datos\obj\Debug\netstandard2.0\Datos.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\programacion web\taller automotriz\Datos\obj\Debug\netstandard2.0\Datos.csproj.CopyComplete
+C:\Users\Usuario\Documents\programacion web\taller automotriz\Datos\obj\Debug\netstandard2.0\Datos.dll
+C:\Users\Usuario\Documents\programacion web\taller automotriz\Datos\obj\Debug\netstandard2.0\Datos.pdb

@@ -1,0 +1,100 @@
+<div class="container">
+    <p style="text-align: center;"><b> AGENDAR CITA</b></p>
+    <hr>
+    <form class="row g-3" [formGroup]="formGroup">
+        <div class="col-md-6">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" name="nombre" formControlName="nombre">
+        </div>
+        <div class="col-md-6">
+            <label for="apellido" class="form-label">Apellido</label>
+            <input type="text" class="form-control" name="apellido" formControlName="apellido">
+        </div>
+        <div class="col-4">
+            <label for="identificacion" class="form-label">identificacion</label>
+            <input type="text" class="form-control" name="identificacion" formControlName="identificacion">
+        </div>
+        <div class="col-8">
+            <label for="telefono" class="form-label">Telefono</label>
+            <input type="text" class="form-control" name="telefono" formControlName="telefono">
+        </div>
+        <div class="col-2">
+            <label for="edad" class="form-label">Edad</label>
+            <input type="number" class="form-control" name="edad" formControlName="edad">
+        </div>
+        <div class="col-md-4">
+            <label for="sexo" class="form-label">Sexo</label>
+            <input type="text" class="form-control" name="sexo" formControlName="sexo">
+        </div>
+        <hr>
+        <p style="text-align:left"><b>DATOS DEL VEHICULO</b></p>
+        <div class="col-4">
+            <label for="marca" class="form-label">Marca</label>
+            <input type="text" class="form-control" name="marca" formControlName="marca">
+        </div>
+        <div class="col-4">
+            <label for="modelo" class="form-label">Modelo</label>
+            <input type="text" class="form-control" name="modelo" formControlName="modelo">
+        </div>
+        <div class="col-4">
+            <label for="tipo" class="form-label">Tipo</label>
+            <input type="text" class="form-control" name="tipo" formControlName="tipo">
+        </div>
+        <div class="col-4">
+            <label for="placa" class="form-label">Placa</label>
+            <input type="text" class="form-control" name="placa" formControlName="placa">
+        </div>
+        <div class="col-4">
+            <label for="color" class="form-label">Color</label>
+            <input type="text" class="form-control" name="color" formControlName="color">
+        </div>
+        <div class="col-12" >
+            <button [disabled]="formGroup.invalid" type="submit" class="btn btn-primary" (click)="onSubmit()">AGENDAR</button>
+        </div>
+
+    </form>
+    <hr>
+    <p style="text-align: center;"><B>AGENDA</B></p>
+    <form class="row g-3">
+        <div class="col-md-6">
+            <input type="text" class="form-control" id="buscar">
+        </div>
+        <div class="col-md-6">
+            <button type="submit" class="btn btn-primary" (click)="get()">BUSCAR</button>
+        </div>
+    </form>
+    <br>
+    <table class="table table-striped" *ngIf='citas && citas.length'>
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Apellido</th>
+                <th scope="col">Identificacion</th>
+                <th scope="col">Telefono</th>
+                <th scope="col">Edad</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Marca</th>
+                <th scope="col">Modelo</th>
+                <th scope="col">tipo</th>
+                <th scope="col">Placa</th>
+                <th scope="col">Color</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let cita of citas; index as i ">
+                <th scope="row">{{ i + 1 }}</th>
+                <td>{{ cita.cliente.nombre }} </td>
+                <td>{{ cita.cliente.apellido }}</td>
+                <td>{{ cita.cliente.identificacion }}</td>
+                <td>{{ cita.cliente.telefono }}</td>
+                <td>{{ cita.cliente.edad }}</td>
+                <td>{{ cita.cliente.sexo }}</td>
+                <td>{{ cita.vehiculo.marca }}</td>
+                <td>{{ cita.vehiculo.tipo }}</td>
+                <td>{{ cita.vehiculo.placa }}</td>
+                <td>{{ cita.vehiculo.color }}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

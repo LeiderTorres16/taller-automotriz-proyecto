@@ -1,0 +1,14 @@
+C:\Users\Usuario\Documents\programacion web\taller automotriz\Logica\bin\Debug\netcoreapp3.1\Logica.deps.json
+C:\Users\Usuario\Documents\programacion web\taller automotriz\Logica\bin\Debug\netcoreapp3.1\Logica.dll
+C:\Users\Usuario\Documents\programacion web\taller automotriz\Logica\bin\Debug\netcoreapp3.1\Logica.pdb
+C:\Users\Usuario\Documents\programacion web\taller automotriz\Logica\bin\Debug\netcoreapp3.1\Datos.dll
+C:\Users\Usuario\Documents\programacion web\taller automotriz\Logica\bin\Debug\netcoreapp3.1\Entidad.dll
+C:\Users\Usuario\Documents\programacion web\taller automotriz\Logica\bin\Debug\netcoreapp3.1\Entidad.pdb
+C:\Users\Usuario\Documents\programacion web\taller automotriz\Logica\bin\Debug\netcoreapp3.1\Datos.pdb
+C:\Users\Usuario\Documents\programacion web\taller automotriz\Logica\obj\Debug\netcoreapp3.1\Logica.csprojAssemblyReference.cache
+C:\Users\Usuario\Documents\programacion web\taller automotriz\Logica\obj\Debug\netcoreapp3.1\Logica.AssemblyInfoInputs.cache
+C:\Users\Usuario\Documents\programacion web\taller automotriz\Logica\obj\Debug\netcoreapp3.1\Logica.AssemblyInfo.cs
+C:\Users\Usuario\Documents\programacion web\taller automotriz\Logica\obj\Debug\netcoreapp3.1\Logica.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\programacion web\taller automotriz\Logica\obj\Debug\netcoreapp3.1\Logica.csproj.CopyComplete
+C:\Users\Usuario\Documents\programacion web\taller automotriz\Logica\obj\Debug\netcoreapp3.1\Logica.dll
+C:\Users\Usuario\Documents\programacion web\taller automotriz\Logica\obj\Debug\netcoreapp3.1\Logica.pdb
